@@ -2,6 +2,7 @@ body {
 	background-color: black;
 	color: white;
 	overflow-x: hidden;
+	text-align: center;
 }
 
 #video-placeholder{
@@ -10,7 +11,6 @@ body {
 	padding: 0;
 	margin: 0 auto;
 	text-align: center;
-
 }
 
 
@@ -27,6 +27,8 @@ Feel free to adjust the defaults to your needs.
 	opacity: 0;
 	transition: .05s;
 	position:absolute;
+	width: 100%;
+	text-align: center;
 
 	
 }
@@ -126,6 +128,7 @@ You probably want to change the styling.
 	font-family: "brenner slab";
 }
 */
+
 
 
 .voice1 {
@@ -370,6 +373,46 @@ You probably want to change the styling.
    }
 }
 
+.sound0 {
+	animation: iframe-skew 3s  linear alternate-reverse;
+}
+/* Creates an animation with 20 steaps. For each step, it calculates a percentage for the specific step. It then generates a random clip box to be used for the random glitch effect. Also adds a very subtle skew to change the 'thickness' of the glitch.*/
+
+@keyframes iframe-skew {
+	0% {
+		transform: skew(5deg);
+   }
+	10% {
+		transform: skew(4deg);
+   }
+	20% {
+		transform: skew(2deg);
+   }
+	30% {
+		transform: skew(-2deg);
+   }
+	40% {
+		transform: skew(-1deg);
+   }
+	50% {
+		transform: skew(0deg);
+   }
+	60% {
+		transform: skew(4deg);
+   }
+	70% {
+		transform: skew(-2deg);
+   }
+	80% {
+		transform: skew(2deg);
+   }
+	90% {
+		transform: skew(-1deg);
+   }
+	100% {
+		transform: skew(3deg);
+   }
+}
 
 
 .sound1 {
@@ -379,11 +422,12 @@ You probably want to change the styling.
 }
 @keyframes alarm {
 	0% {
-		box-shadow:  0px 0px 127px -96px rgba(255,0,0,1);}
-
-	50%{
-		box-shadow:  0px 0px 129px 200px rgba(255,0,0,1);
+		background: linear-gradient(to left, #333, #333 50%, #eee 75%, #333 75%);
 	}
+	50% {
+		background: linear-gradient(to left, #333, #333 30%, #c42d2d 60%, #333 80%);
+	}
+
 	100% {
-		box-shadow:  0px 0px 129px 200px rgba(255,0,0,0);
+		background-color:  black;
 }}
