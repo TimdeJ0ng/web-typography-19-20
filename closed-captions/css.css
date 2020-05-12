@@ -2,6 +2,7 @@ body {
 	background-color: black;
 	margin-top: 75px;
 	color: white;
+	overflow-x: hidden;
 }
 
 #video-placeholder{
