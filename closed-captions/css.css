@@ -4,6 +4,13 @@ body {
 	color: white;
 }
 
+#video-placeholder{
+	width: 50%;
+	height: 100%;
+	padding: 0;
+}
+
+
 
 
 /* **********************************************
