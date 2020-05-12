@@ -1,8 +1,7 @@
-body{
-	text-align: center;
+body {
 	background-color: black;
+	margin-top: 75px;
 	color: white;
-	background-image: url(https://media.giphy.com/media/OVlFjmEDhx9rG/giphy.gifs);
 }
 
 
@@ -17,7 +16,10 @@ Feel free to adjust the defaults to your needs.
 #closed-captions p {
 	opacity: 0;
 	transition: .05s;
-	position: absolute;
+	position:absolute;
+	left: 20%;
+	text-align: center;
+	
 }
 #closed-captions .on {
 	opacity: 1;
@@ -27,7 +29,7 @@ Feel free to adjust the defaults to your needs.
 	opacity: 0;
 }
 .voice1 {
-
+text-align: center;
 }
 
 .voice2{
@@ -363,3 +365,25 @@ You probably want to change the styling.
    }
 }
 
+
+
+.sound1 {
+	animation-duration: 1s;
+	animation-name: alarm;
+	animation-timing-function: ease-in;
+}
+@keyframes alarm {
+	0% {
+		box-shadow:  0px 0px 127px -96px rgba(255,0,0,1);}
+
+	50%{
+		box-shadow:  0px 0px 129px 200px rgba(255,0,0,1);
+	}
+	100% {
+		box-shadow:  0px 0px 129px 200px rgba(255,0,0,0);
+}}
+
+#video-placeholder {
+	display: block;
+	width: 80vw;
+}
