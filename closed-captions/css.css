@@ -565,7 +565,7 @@ You probably want to change the styling.
 	height: 500px;
 	border: 6px solid #fff;
 	transform: translateX(-50%) translateY(-50%) rotate(90deg) skew(75deg);
-	animation-duration: 20s;
+	animation-duration: 5s;
 	animation-name: move;
 	animation-timing-function: cubic-bezier(0.06, 0.22, 0.19, 0.99);
 	animation-iteration-count: infinite;
@@ -586,21 +586,6 @@ You probably want to change the styling.
   }
   .diamond-lines div:nth-child(5) {
 	animation-delay: 10s;
-  }
-  .diamond-lines div:nth-child(6) {
-	animation-delay: 12s;
-  }
-  .diamond-lines div:nth-child(7) {
-	animation-delay: 14s;
-  }
-  .diamond-lines div:nth-child(8) {
-	animation-delay: 16s;
-  }
-  .diamond-lines div:nth-child(9) {
-	animation-delay: 18s;
-  }
-  .diamond-lines div:nth-child(10) {
-	animation-delay: 20s;
   }
   
   @keyframes move {
