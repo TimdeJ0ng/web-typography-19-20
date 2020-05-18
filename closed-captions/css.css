@@ -366,6 +366,45 @@ You probably want to change the styling.
    }
 }
 
+.voice2{
+	font-family: Brenner mono;
+	font-weight: 100;
+	position: relative;
+	color: whitesmoke;
+	font-size: 1.6em;
+}
+
+#officier{
+	font-weight: 800;
+	text-transform: uppercase;
+	font-family: Brenner sans condensed;
+	font-style: italic;
+	letter-spacing: -2px;
+	color: whitesmoke;
+	font-size: 1.6em;
+}
+
+.voice3{
+	font-weight: 800;
+	text-transform: uppercase;
+	font-family: Brenner sans condensed;
+	font-style: italic;
+	letter-spacing: -2px;
+	position: relative;
+	color: red;
+	font-size: 1.6em;
+}
+	
+
+
+
+
+
+
+
+
+
+
 .sound0 {
 	animation: iframe-skew 3s  linear alternate-reverse;
 }
@@ -540,15 +579,13 @@ You probably want to change the styling.
 
 
 
-
-
 /*.daimonds{
 	display: none;
 }
 
 
   
-  .sound3 .daimonds {
+  .sound4 .daimonds {
 	display:block;
 	position: fixed;
 	top: 248px;
@@ -661,4 +698,32 @@ You probably want to change the styling.
 	  display: none;
 	}
   }
+
 */
+
+.sound6 iframe{
+	width: 100%;
+	height: 1px;
+	animation: laser 1s ease-in;
+  }
+  
+  @keyframes laser {
+	0% {
+		box-shadow: 0px 0px 8px 10px rgba(170, 11, 23, 0.49);
+		top: 50%;
+		transform: translateY(0px);
+	  }  
+	  25% {
+		box-shadow: 0px 6px 8px 10px rgba(170, 11, 23, 0.49);
+		top: 5px;
+	  }
+	  75% {
+		box-shadow: 0px 0px 0px 0px rgba(170, 11, 23, 0.49);
+		top: 98%;
+		transform: translateY(200px);
+	  }
+	  100% {
+		opacity:0;
+		height: 0px;
+	  }
+  }
