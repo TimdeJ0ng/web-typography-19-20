@@ -121,7 +121,26 @@ You probably want to change the styling.
 
 }
 
-.p1.on span:first-of-type {
+.p1.on span:first-of-type,
+.p3.on span:first-of-type,
+.p4.on span:first-of-type,
+.p5.on span:first-of-type,
+.p7.on span:first-of-type,
+.p9.on span:first-of-type,
+.p12.on span:first-of-type,
+.p15.on span:first-of-type,
+.p18.on span:first-of-type,
+.p20.on span:first-of-type,
+.p23.on span:first-of-type,
+.p26.on span:first-of-type,
+.p29.on span:first-of-type,
+.p31.on span:first-of-type,
+.p34.on span:first-of-type,
+.p37.on span:first-of-type,
+.p39.on span:first-of-type,
+.p41.on span:first-of-type,
+.p42.on span:first-of-type,
+.p43.on span:first-of-type{
 	font-weight: 800;
 	text-transform: uppercase;
 	font-family: Brenner sans condensed;
@@ -129,6 +148,8 @@ You probably want to change the styling.
 	color: whitesmoke;
 	font-size: 1.2em;
 }
+
+
 
 
 
@@ -658,7 +679,7 @@ You probably want to change the styling.
 	  }
   }
 
-  .sound7{
+.sound7{
 	animation-duration: 1s;
 	animation-name: Alarm5;
 	animation-timing-function: ease-in;
@@ -708,12 +729,12 @@ You probably want to change the styling.
 
 
 
-  .sound9  iframe{
+.sound9  iframe{
 	width: 100%;
 	height: 1px;
 	animation: laser3 42s linear;
 	/* filter:brightness(108%) contrast(153%) hue-rotate(17deg); */
-  }
+}
 	  
 	  @keyframes laser3 {
 		0% {
@@ -765,13 +786,44 @@ transform: skew(-2deg);
 		  
 	  }
 
-.sound5 #closed-captions:before{
-	content: "[Electrische trilling gaat op en neer]";
-	color:  yellow;
-    animation: inputtext 2s forwards;
+.sound0 #closed-captions:before{
+	content: "[ONHEILSPELLENDE SYNTHESIZER]";
+	color:  white;
+	font-size: 3em;
+	animation: inputtext 2s forwards;
+	text-align: center;
+	font-family: "Brenner Sans";
+	font-style: Normal;
+	font-weight: 800;
+	text-shadow: 0px 0px 5px #fff, 0px 0px 7px #fff;
+	top: -200px;
 }
 
 @keyframes inputtext{
+    0% {
+        opacity: 1;
+    }
+    99% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+.sound1 #closed-captions:before{
+	content: "[SIRENE]";
+	color:  white;
+	font-size: 3em;
+	animation: inputtext1 2s forwards;
+	text-align: center;
+	font-family: "Brenner Sans";
+	font-style: Normal;
+	font-weight: 800;
+	text-shadow: 0px 0px 5px #fff, 0px 0px 7px #fff;
+	top: -200px;
+}
+@keyframes inputtext1{
     0% {
         opacity: 1;
     }
