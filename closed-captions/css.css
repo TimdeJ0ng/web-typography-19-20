@@ -154,7 +154,7 @@ You probably want to change the styling.
 
 
 
-.voice1 {
+.voice1, .voice4 {
 	text-transform: uppercase;
 	font-family: Brenner Sans Condensed ;
 	font-weight: 900;
@@ -424,9 +424,9 @@ You probably want to change the styling.
 	color: red;
 	font-size: 1.6em;
 }
+
+.voice4
 	
-
-
 .voice3 iframe{
 	animation-duration: 2s;
 	animation-name: fokoff;
@@ -790,7 +790,7 @@ transform: skew(-2deg);
 	content: "[ONHEILSPELLENDE SYNTHESIZER]";
 	color:  white;
 	font-size: 3em;
-	animation: inputtext 2s forwards;
+	animation: inputtext 4s forwards;
 	text-align: center;
 	font-family: "Brenner Sans";
 	font-style: Normal;
@@ -798,6 +798,85 @@ transform: skew(-2deg);
 	text-shadow: 0px 0px 5px #fff, 0px 0px 7px #fff;
 	top: -200px;
 }
+
+.sound1 #closed-captions:before{
+	content: "[SIRENE]";
+	color:  white;
+	font-size: 3em;
+	animation: inputtext1 1.5s forwards;
+	text-align: center;
+	font-family: "Brenner Sans";
+	font-style: Normal;
+	font-weight: 800;
+	text-shadow: 0px 0px 5px #fff, 0px 0px 7px #fff;
+	top: -200px;
+}
+
+.sound2 #closed-captions:before{
+	content: "[ALARMBEL]";
+	color:  white;
+	font-size: 3em;
+	animation: inputtext2 1.5s forwards;
+	text-align: center;
+	font-family: "Brenner Sans";
+	font-style: Normal;
+	font-weight: 800;
+	text-shadow: 0px 0px 5px #fff, 0px 0px 7px #fff;
+	top: -200px;
+}
+
+.sound3 #closed-captions:before{
+	content: "[PROGRESSIEF ALARM]";
+	color:  white;
+	font-size: 3em;
+	animation: inputtext3 2s forwards;
+	text-align: center;
+	font-family: "Brenner Sans";
+	font-style: Normal;
+	font-weight: 800;
+	text-shadow: 0px 0px 5px #fff, 0px 0px 7px #fff;
+	top: -200px;
+}
+
+.sound4 #closed-captions:before{
+	content: "[ALARMBEL]";
+	color:  white;
+	font-size: 3em;
+	animation: inputtext4 2s forwards;
+	text-align: center;
+	font-family: "Brenner Sans";
+	font-style: Normal;
+	font-weight: 800;
+	text-shadow: 0px 0px 5px #fff, 0px 0px 7px #fff;
+	top: -200px;
+}
+
+.sound5 #closed-captions:before{
+	content: "[PROGRESSIEF ALARM]";
+	color:  white;
+	font-size: 3em;
+	animation: inputtext5 3.5s forwards;
+	text-align: center;
+	font-family: "Brenner Sans";
+	font-style: Normal;
+	font-weight: 800;
+	text-shadow: 0px 0px 5px #fff, 0px 0px 7px #fff;
+	top: -200px;
+}
+
+.sound8 #closed-captions:before{
+	content: "[LANGZAAM ONTWIKKELENDE PIEPTOON]";
+	color:  white;
+	font-size: 3em;
+	animation: inputtext6 42s forwards;
+	text-align: center;
+	font-family: "Brenner Sans";
+	font-style: Normal;
+	font-weight: 800;
+	text-shadow: 0px 0px 5px #fff, 0px 0px 7px #fff;
+	top: -200px;
+}
+
 
 @keyframes inputtext{
     0% {
@@ -811,18 +890,6 @@ transform: skew(-2deg);
     }
 }
 
-.sound1 #closed-captions:before{
-	content: "[SIRENE]";
-	color:  white;
-	font-size: 3em;
-	animation: inputtext1 2s forwards;
-	text-align: center;
-	font-family: "Brenner Sans";
-	font-style: Normal;
-	font-weight: 800;
-	text-shadow: 0px 0px 5px #fff, 0px 0px 7px #fff;
-	top: -200px;
-}
 @keyframes inputtext1{
     0% {
         opacity: 1;
@@ -832,5 +899,67 @@ transform: skew(-2deg);
     }
     100% {
         opacity: 0;
+    }
+}
+
+@keyframes inputtext2{
+    0% {
+        opacity: 1;
+    }
+    99% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+@keyframes inputtext3{
+    0% {
+        opacity: 1;
+    }
+    99% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+@keyframes inputtext4{
+    0% {
+        opacity: 1;
+    }
+    99% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+@keyframes inputtext5{
+    0% {
+        opacity: 1;
+    }
+    99% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+@keyframes inputtext6{
+    0% {
+		opacity: 1;
+		font-size: 0.1;
+    }
+    99% {
+        opacity: 1;
+    }
+    100% {
+		opacity: 0;
+		font-size: 4em;
     }
 }
