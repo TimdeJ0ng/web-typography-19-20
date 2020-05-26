@@ -29,9 +29,11 @@ Er kwam naar voren dat ze het belangrijk vindt dat:
 
 Ik had wat opstartproblemen het eerste deel van deze opdracht. Tijdens het eerste feedback moment had ik dus ook niet zo veel te laten zien. Ik heb de eerste week onderzocht welk font ik wilde gebruiken. We kregen de optie om te kiezen tussen het systeemfont, dit wil zeggen dat je het standaard font van je browser kiest. De andere keuze was Brenner. Brenner is een heel uitgebreid webfont.
 
-Ik heb gekozen voor Brenner. Dit heb ik gedaan zodat ik meer variatie kan aanbrengen door de vorm van de letter alleen. Ik wilde de tekst niet te veel kleurvariatie geven en onderscheid tussen verschillende stemmen laten zien door de naam van de persoon in kwestie mee te geven. [naamgeving]
+Ik heb gekozen voor Brenner. Dit heb ik gedaan zodat ik meer variatie kan aanbrengen door de vorm van de letter alleen. Ik wilde de tekst niet te veel kleurvariatie geven en onderscheid tussen verschillende stemmen laten zien door de naam van de persoon in kwestie mee te geven. 
+![naamgeving](naamgeving.png)
 
-Ik had een begin gemaakt aan de visuele vormgeving van de eerste stem. Hiervoor heb ik een ‘glitch effect’ gebruikt. In de film is te zien dat de hoofdrolspeler in een ruimte zit en tegen een computer praat. Doordat dit een computer is waartegen gesproken wordt en omdat de stem in kwestie robotachtig klinkt leek mij de link tussen een ‘glitch effect’ en de stem vrij makkelijk gemaakt om dat gevoel over te brengen. [glitch]
+Ik had een begin gemaakt aan de visuele vormgeving van de eerste stem. Hiervoor heb ik een ‘glitch effect’ gebruikt. In de film is te zien dat de hoofdrolspeler in een ruimte zit en tegen een computer praat. Doordat dit een computer is waartegen gesproken wordt en omdat de stem in kwestie robotachtig klinkt leek mij de link tussen een ‘glitch effect’ en de stem vrij makkelijk gemaakt om dat gevoel over te brengen.
+![glitch effect](glitch.png)
 
 
 #### Feedback
