@@ -10,6 +10,12 @@ Film is naast beeld ook geluid. Het geluid maakt scenes spannend, verdrietig of 
 
 ## Opdrachtgever | situatie
 
+Darice de Cuba is front-end developer uit Den Haag. Ze richt zich voornamelijk op Inclusive Design en geeft lezingen over dit onderwerp op bijvoorbeeld de Hogeschool van Den Haag. Ondanks dat Darice een auditieve beperking heeft spreekt ze vloeiend 3 talen en de basisbegrippen van gebarentaal. Ze heeft leren spreken in haar jeugd en is op latere leeftijd gaan leiden aan gehoorverlies aan beide oren. 
+
+Aan het begin van de opdracht hebben we de kans gehad aantal vragen aan Darice te stellen om er achter te komen wat haar motivaties waren, de doelen die ze heeft bij deze opdracht en wat ze zich voorsteld aan het einde van de rit. 
+
+Er kwam naar voren dat
+
 
 
 ## Product 
