@@ -56,7 +56,7 @@ Tijdens het gesprek met Darice kreeg ik te horen dat de glitch tekst toch niet z
 
 ### derde versie (eind product)
 
-Het uiteindelijke resultaat vind je hier.
+Het uiteindelijke resultaat vind je hier. https://timdej0ng.github.io/web-typography-19-20/closed-captions/index.html
 Na wat stoeien en knoeien met CSS heb ik naar eigen zeggen een mooi product neer gezet wat Darice helpt de film te beleven. Ik heb na de tweede feedback ronde nog enkele dingen aangepast en toegevoegd zoals naamgeving van de achtergrondgeluiden en de vormgeving van de filters op het Iframe.
 
 
