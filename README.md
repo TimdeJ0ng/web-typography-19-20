@@ -41,9 +41,16 @@ Ik had een begin gemaakt aan de visuele vormgeving van de eerste stem. Hiervoor 
 Omdat ik weinig werk had verricht voor de eerste feedbackronde kreeg ik geen concrete feedback en waren het eerder tips die ik kreeg.
 
 
-### tweede versie
+### Tweede versie
+Ditmaal had ik motivatie gevonden en ben ik aan de slag gegaan met CSS. Ik ben gaan experimenteren met verschillende filters en keyframes om effecten te bereiken. Ik probeerde beetje over de top te gaan en te spelen met het fragment zelf. Op de achtergrond worden veel onheilspellende geluiden gespeeld. Dat is vrij lastig vorm te geven maar heb dit geprobeerd met een glitch achtig effect. Dit wilde ik doen omdat het t best bij de geluiden past en om het in lijn te trekken met de vormgeving van de teksten. Ik heb geprobeerd door met lasers, flitsende achtergronden en beweging van het iFrame iets neer te zetten dat zonder geluid toch aantrekkelijk is om naar te kijken.
+![contrast](contrast.png)
+![effect](top.png)
+![effect](topp.png)
 
-
+#### Feedback
+Tijdens het gesprek met Darice kreeg ik te horen dat de glitch tekst toch niet zo goed leesbaar was. Dit heb ik iets aangepast en er voor gezorgd dat het wat leesbaarder wordt.  In gesprek met vasilis kwam naar voren dat het contrast effect misschien te heftig was. Dit heb ik aangepast en verbeterd.
+![glitch effect verbeterd](glitch1.png)
+![verbeterde contrastscene ](laaststescene.png)
 
 
 
